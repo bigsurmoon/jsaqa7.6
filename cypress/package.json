@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "cy:openMobile": "cypress run --browser chrome --config viewportWidth=414 viewportHeight=736",
+    "cy:openPc": "cypress run --browser chrome --config viewportWidth=1920 viewportHeight=1080",
+    "cy:headed": "cypress run --headed --browser chrome",
+    "cy:electron": "cypress run",
+    "cy:electronHeaded": "cypress run --headed"
+  },
+  "dependencies": {
+    "cypress": "^12.1.0"
+  }
+}
